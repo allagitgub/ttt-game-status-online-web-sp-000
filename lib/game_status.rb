@@ -26,7 +26,7 @@ end
 
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
 value = won?([" "," "," "," "," "," "," "," "," "])
-full?(board)
+value1 = full?(board)
 #value1 = full?([" "," "," "," "," "," "," "," "," "])
 puts "#{value}"
 
