@@ -36,7 +36,7 @@ value = won?([" "," "," "," "," "," "," "," "," "])
 value1 = full?([" "," "," "," "," "," "," "," "," "])
 value2 = draw?()
 #value1 = full?([" "," "," "," "," "," "," "," "," "])
-puts "value #{value1}"
+puts "value #{value2}"
 
 
 # Define your WIN_COMBINATIONS constant
