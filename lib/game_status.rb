@@ -21,7 +21,7 @@ def won?(board)
 end
 
 def full?(board) 
-  board.select{ |item| item != " " && !item.nil? && item != ""}.size == 9
+  board.select{ |item| item != " " && !item.nil? && item != ""}
 end
 
 value = won?([" "," "," "," "," "," "," "," "," "])
