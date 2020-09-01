@@ -28,6 +28,10 @@ def draw?(board)
   !(won?(board) || !full?(board))
 end
 
+def over?(board)
+  won(board) || full?(board) || draw?(board)
+end
+
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
 value = won?([" "," "," "," "," "," "," "," "," "])
 value1 = full?([" "," "," "," "," "," "," "," "," "])
