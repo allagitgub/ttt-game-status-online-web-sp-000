@@ -29,8 +29,6 @@ def draw?(board)
     return false
   elsif
     return true
-
-
 end
 
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
