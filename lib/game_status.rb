@@ -34,7 +34,7 @@ end
 
 def winner(board)
   if(won?(board))
-    WIN_COMBINATIONS.detect {do |win_combination|
+    WIN_COMBINATIONS.detect {|win_combination|
       (board[win_combination[0]] == "X" && board[win_combination[1]] == "X" && board[win_combination[2]] == "X") }.size > 0 ? "X" : "O"
   end
    nil
