@@ -37,7 +37,8 @@ def winner(board)
     if( WIN_COMBINATIONS.detect {|win_combination|
       (board[win_combination[0]] == "X" && board[win_combination[1]] == "X" && board[win_combination[2]] == "X") })
       return  "X"
-    else return "O"
+    else
+      return "O"
   end
    nil
 end
