@@ -28,7 +28,7 @@ board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
 value = won?([" "," "," "," "," "," "," "," "," "])
 value1 = full?(board)
 #value1 = full?([" "," "," "," "," "," "," "," "," "])
-puts "#{value} value #{value1}"
+puts "value #{value1}"
 
 
 # Define your WIN_COMBINATIONS constant
