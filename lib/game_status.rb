@@ -26,7 +26,7 @@ end
 
 value = won?([" "," "," "," "," "," "," "," "," "])
 #value1 = full?([" "," "," "," "," "," "," "," "," "])
-puts "#{value} #{value1}"
+puts "#{value}"
 
 
 # Define your WIN_COMBINATIONS constant
