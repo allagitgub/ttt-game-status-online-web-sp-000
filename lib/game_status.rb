@@ -20,7 +20,7 @@ def won?(board)
  end
 end
 
-def tat?(board)
+def full?(board)
 
 end
 
