@@ -46,7 +46,7 @@ value1 = full?([" "," "," "," "," "," "," "," "," "])
 value2 = draw?(board)
 value3 = winner(board)
 #value1 = full?([" "," "," "," "," "," "," "," "," "])
-puts "value #{value2}"
+puts "value #{value3}"
 
 
 # Define your WIN_COMBINATIONS constant
