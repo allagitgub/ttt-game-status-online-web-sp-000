@@ -32,6 +32,13 @@ def over?(board)
   won?(board) || full?(board) || draw?(board)
 end
 
+def winner(board)
+  if(won?(board))
+    WIN_COMBINATIONS.detect {do |win_combination|
+      (board[win_combination[0]] == "X" && board[win_combination[1]] == "X" && board[win_combination[2]] == "X") }
+  end
+end
+
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
 value = won?([" "," "," "," "," "," "," "," "," "])
 value1 = full?([" "," "," "," "," "," "," "," "," "])
