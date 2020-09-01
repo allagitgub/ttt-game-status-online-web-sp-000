@@ -44,6 +44,7 @@ board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
 value = won?([" "," "," "," "," "," "," "," "," "])
 value1 = full?([" "," "," "," "," "," "," "," "," "])
 value2 = draw?(board)
+value3 = winner(board)
 #value1 = full?([" "," "," "," "," "," "," "," "," "])
 puts "value #{value2}"
 
