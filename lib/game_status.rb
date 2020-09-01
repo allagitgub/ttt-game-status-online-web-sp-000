@@ -20,8 +20,8 @@ def won?(board)
  end
 end
 
-def tat?(board) 
-  #board.select{ |item| item != " " && !item.nil? && item != ""}.size == 9
+def tat?(board)
+
 end
 
 board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
