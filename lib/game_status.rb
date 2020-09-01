@@ -40,7 +40,7 @@ def winner(board)
    nil
 end
 
-board = ["X", "O", " ", " ", "O", " ", " ", "O", "X"]
+board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
 value = won?([" "," "," "," "," "," "," "," "," "])
 value1 = full?([" "," "," "," "," "," "," "," "," "])
 value2 = draw?(board)
